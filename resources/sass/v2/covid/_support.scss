@@ -1,0 +1,40 @@
+.support{
+.form-div{
+	background-color: #f8f9fc;
+}
+
+
+h1{
+	font-size: 80px;
+}
+p{
+	font-size:20px;
+}
+.bg-gray{
+	background: #f8f9fc;
+}
+
+form{
+  
+ 
+ input{
+	width: 300px !important;
+}
+.small{
+		width: 100px !important;
+}
+.medium{
+	width:150px !important;
+}
+}
+
+
+
+   button{
+  @include primary-red-button;
+ 	width:40%;
+    z-index: 1000;
+
+}
+
+}

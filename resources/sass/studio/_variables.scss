@@ -1,0 +1,58 @@
+@import 'fonts';
+
+$blue: #3490dc;
+$indigo: #6574cd;
+$purple: #9561e2;
+$pink: #f66d9b;
+$red: #cc5454;
+$orange: #f6993f;
+$yellow: #ffed4a;
+$green: #03a87c;
+$teal: #4dc0b5;
+$cyan: #6cb2eb;
+
+$white: #fff;
+$gray-100: #f7fafc;
+$gray-200: #edf2f7;
+$gray-300: #e2e8f0;
+$gray-400: #cbd5e0;
+$gray-500: #a0aec0;
+$gray-600: #718096;
+$gray-700: #4a5568;
+$gray-800: #2d3748;
+$gray-900: #1a202c;
+$black: #000;
+
+$body-bg: $white;
+$Muli: 'Muli','Open Sans';
+$Roboto:'Roboto','Serif';
+$font-family-sans-serif: $Muli,$Roboto;
+$font-family-serif: $Muli,$Roboto;
+$line-height-base: 1.6;
+
+$font-weight-light: 300;
+$font-weight-normal: 400;
+$font-weight-bold: 700;
+
+
+$border-radius: .5rem;
+$border-radius-sm: .4rem;
+
+$link-color: $gray-900;
+
+$badge-border-radius: .25rem;
+
+$text-muted: $gray-500;
+$theme-secondary:  #FD6D43;
+$theme-black:    #3C4042;
+$theme-red:  #FF7271;
+$theme-blue:   #6FCAD8;
+$theme-green:   #3ED590;
+$theme-white:   #FFFFFF;
+
+// Mixins
+@mixin transition-all() {
+    -webkit-transition: all .35s;
+    -moz-transition: all .35s;
+    transition: all .35s;
+}

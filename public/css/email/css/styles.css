@@ -1,0 +1,158 @@
+/* CSS is based on 600px max-width */
+/* you can change the max-width in _gridStyles.scss */
+/* Basic reset */
+body {
+  margin: 0;
+  padding: 0; }
+
+table, tr, td {
+  vertical-align: top;
+  border-collapse: collapse; }
+
+* {
+  line-height: inherit; }
+
+/* ------------------------- */
+/* Apple remove forced blue text on some devices */
+a[x-apple-data-detectors=true] {
+  color: inherit !important;
+  text-decoration: none !important; }
+
+/* ------------------------- */
+/* owa OUTLOOK WEB APP */
+[owa] .img-container div,
+[owa] .img-container button {
+  display: block !important; }
+
+[owa] .fullwidth button {
+  width: 100% !important; }
+
+[owa] .block-grid .col {
+  display: table-cell;
+  float: none !important;
+  vertical-align: top; }
+
+/* ------------------------- */
+/* ie Browser resets  */
+.ie-browser table,
+.mso-container table {
+  table-layout: fixed; }
+
+/* GRID STYLES */
+.ExternalClass,
+.ExternalClass p,
+.ExternalClass span,
+.ExternalClass font,
+.ExternalClass td,
+.ExternalClass div {
+  line-height: 100%; }
+
+/* ----------------------------------- */
+/* IE & owa specific GRID STYLES  */
+.ie-browser .num12,
+.ie-browser .block-grid,
+[owa] .num12,
+[owa] .block-grid {
+  width: 600px !important; }
+
+.ie-browser .mixed-two-up .num4,
+[owa] .mixed-two-up .num4 {
+  width: 200px !important; }
+
+.ie-browser .mixed-two-up .num8,
+[owa] .mixed-two-up .num8 {
+  width: 400px !important; }
+
+.ie-browser .block-grid.two-up .col,
+[owa] .block-grid.two-up .col {
+  width: 300px !important; }
+
+.ie-browser .block-grid.three-up .col,
+[owa] .block-grid.three-up .col {
+  width: 200px !important; }
+
+.ie-browser .block-grid.four-up .col,
+[owa] .block-grid.four-up .col {
+  width: 150px !important; }
+
+.ie-browser .block-grid.five-up .col,
+[owa] .block-grid.five-up .col {
+  width: 120px !important; }
+
+.ie-browser .block-grid.six-up .col,
+[owa] .block-grid.six-up .col {
+  width: 100px !important; }
+
+.ie-browser .block-grid.seven-up .col,
+[owa] .block-grid.seven-up .col {
+  width: 84.98584px !important; }
+
+.ie-browser .block-grid.eight-up .col,
+[owa] .block-grid.eight-up .col {
+  width: 75px !important; }
+
+.ie-browser .block-grid.nine-up .col,
+[owa] .block-grid.nine-up .col {
+  width: 65.93407px !important; }
+
+.ie-browser .block-grid.ten-up .col,
+[owa] .block-grid.ten-up .col {
+  width: 60px !important; }
+
+.ie-browser .block-grid.eleven-up .col,
+[owa] .block-grid.eleven-up .col {
+  width: 54.05405px !important; }
+
+.ie-browser .block-grid.twelve-up .col,
+[owa] .block-grid.twelve-up .col {
+  width: 50px !important; }
+
+/* ------------------------------------------ */
+/* Main Grid CSS for responsive emails */
+@media only screen and (min-width: 620px) {
+  .block-grid {
+    width: 600px !important; }
+  .block-grid .col {
+    vertical-align: top; }
+  .block-grid .col.num12 {
+    width: 600px !important; }
+  .block-grid.mixed-two-up .col.num4 {
+    width: 200px !important; }
+  .block-grid.mixed-two-up .col.num8 {
+    width: 400px !important; }
+  .block-grid.two-up .col {
+    width: 300px !important; }
+  .block-grid.three-up .col {
+    width: 200px !important; }
+  .block-grid.four-up .col {
+    width: 150px !important; }
+  .block-grid.five-up .col {
+    width: 120px !important; }
+  .block-grid.six-up .col {
+    width: 100px !important; }
+  .block-grid.seven-up .col {
+    width: 84.98584px !important; }
+  .block-grid.eight-up .col {
+    width: 75px !important; }
+  .block-grid.nine-up .col {
+    width: 65.93407px !important; }
+  .block-grid.ten-up .col {
+    width: 60px !important; }
+  .block-grid.eleven-up .col {
+    width: 54.05405px !important; }
+  .block-grid.twelve-up .col {
+    width: 50px !important; } }
+
+@media (max-width: 620px) {
+  .block-grid, .col {
+    min-width: 320px !important;
+    max-width: 100% !important;
+    display: block !important; }
+  .block-grid {
+    width: calc(100% - 40px) !important; }
+  .col {
+    width: 100% !important; }
+  .col > div {
+    margin: 0 auto; }
+  img.fullwidth {
+    max-width: 100% !important; } }

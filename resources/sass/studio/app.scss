@@ -1,0 +1,88 @@
+
+
+.navbar {
+    background: rgba(255, 255, 255, .97);
+    box-shadow: $box-shadow;
+}
+#studio{
+     background-color: #ffffff;
+}
+.primary {
+    fill: $theme-red;
+}
+
+.primary:hover {
+    fill: darken($gray-500, 15%);
+}
+
+.secondary {
+    fill: $theme-blue;
+}
+
+.font-serif {
+    font-family: $Muli,$Roboto;
+}
+
+.font-sans {
+    font-family:$Muli,$Roboto;
+}
+
+.card {
+    transition: box-shadow .2s ease,-webkit-transform .3s cubic-bezier(.34,2,.6,1) !important;
+    transition: transform .3s cubic-bezier(.34,2,.6,1),box-shadow .2s ease !important;
+    transition: transform .3s cubic-bezier(.34,2,.6,1),box-shadow .2s ease,-webkit-transform .3s cubic-bezier(.34,2,.6,1) !important;
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,.1) !important;
+}
+
+.card:hover {
+    -webkit-transform: translateY(-5px) !important;
+    transform: translateY(-5px) !important;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,.12),0 2px 4px 0 rgba(0,0,0,.08) !important;
+}
+
+[v-cloak] {
+    display: none;
+}
+.card-title{
+    color:$theme-black;
+}
+
+.btn-instawalkin{
+    background-color: $theme-red;
+    color:white;
+    @include transition-all;
+    &:hover,
+    &:focus {
+      color:$theme-black;
+
+    }
+}
+
+ div.signupdiv{
+    margin-top:2em;
+    background-color: lighten($theme-black,50);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+  .form-control{
+    border-radius:45px;
+    border-color:$theme-red;
+
+  }
+
+a{
+    color: $theme-red;
+    &:hover,
+    &:focus {
+        color: darken($theme-black, 10%);
+    }
+}  
+@import 'nprogress';
+@import '~bootstrap/scss/functions';
+@import '~bootstrap/scss/variables';
+@import '~bootstrap/scss/mixins';
+
+//@import '~bootstrap';
+

@@ -1,0 +1,176 @@
+section.reviews {
+    background-color: white;
+.carousel-control-next, .carousel-control-prev
+{
+    top:-9rem;
+}
+.review-pic{
+           @media (min-width: 768px) { 
+                width:48px;
+           }
+    }
+    padding-top: 45px;
+    p{
+        font-size: 14px;
+    }
+    font-color: $theme-black;
+
+    .section-heading {
+        color: white;
+    }
+    .carousel-indicators li {
+    box-sizing: content-box;
+    -ms-flex: 0 1 auto;
+    flex: 0 1 auto;
+    width: 15px;
+    height: 15px;
+    line-height: 15px;
+    border-radius: 50%;
+    text-align: center;
+    margin-right: 3px;
+    margin-left: 3px;
+    text-indent: unset;
+    cursor: pointer;
+    background-color: $theme-black;
+    background-clip: unset;
+    border-top: 0;
+    border-bottom: 0;
+    opacity: .5;
+    transition: opacity .6s ease;
+  }
+  .quote{
+  top: -22px;
+
+width: 10%;
+
+right: 85%;
+
+z-index: 1000;
+@media (min-width: 768px) { max-width:25px }
+@media(min-width:992px){
+    max-width: 49px;
+}
+  }
+
+    .flip-quotes{
+      
+width: 53px;
+z-index: 10;
+left: 80%;
+top: 260px;
+@media (min-width: 768px) { width: 88px;
+z-index: 10;
+left: 80%;
+top: 230px; }
+@media(min-width:992px){
+   width: 176px;
+z-index: 10;
+left: 80%;
+top: 230px;
+}
+  }
+
+  .circle-quote-flip{
+   max-width: 55px;
+
+top: -70px;
+
+left: -25px;
+    @media(min-width:992px){top: 50px;
+
+max-width: 526px;
+
+left: 80%;}
+ @media (min-width: 768px) { 
+width: 91px;
+
+top: -85px;
+
+left: -35px;}
+  }
+  
+  .circle-quote{
+ top: 230px;
+
+left: 80%;
+
+z-index: 1000;
+
+max-width: 158px;
+@media(min-width:992px){top: 50px;
+
+max-width: 526px;
+
+left: 80%;}
+
+ @media (min-width: 768px) { 
+top: 250px;
+max-width: 263px;
+left: 80%;}
+  }
+    .review {
+
+        a {
+            color: $theme-red;
+        }
+
+        a:hover {
+            color: $theme-black;
+        }
+
+        
+
+
+        .card {
+            border-style: none;
+
+        }
+
+        .card-body {
+
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        
+            .badges {
+                border-radius: 50%;
+                max-height: 50px;
+                margin: 10px;
+            }
+
+         
+        }
+
+        .card-title {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            color: $theme-black;
+           
+            font-weight: bold;
+
+            small {
+                color: white;
+               
+                font-weight: regular;
+                margin-top: -25px;
+            }
+        }
+
+        .card-text {
+
+          
+            font-weight: regular;
+            font-color: $theme-black;
+              min-height: 130px; 
+              @media (min-width: 768px) { 
+                    width:50%;
+          }
+        }
+
+
+
+
+    }
+
+}

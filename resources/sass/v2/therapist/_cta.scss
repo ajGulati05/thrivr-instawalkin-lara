@@ -1,0 +1,40 @@
+.cta{
+	 padding-top: 100px;
+    background-color: #fffff;
+    .red-div {
+        padding-top: 100px;
+
+        .red_circle {
+
+            top: -25px;
+
+            right: 90%;
+
+            max-width: 53px;
+
+            @media(min-width: 768px) {
+                top: -35px;
+
+                right: 96%;
+
+                width: 30%;
+
+                max-width: 79px;
+            }
+
+                 @media (min-width: 992px) { 
+                      max-width: 158px;
+                      top: -60px;
+    right: 80%;
+   
+    max-width: 158px;
+         }
+        }
+    }
+    button{
+  @include primary-red-button;
+ 
+    z-index: 1000;
+
+}
+}

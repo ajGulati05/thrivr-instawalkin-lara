@@ -1,0 +1,114 @@
+@import url(https://fonts.googleapis.com/css?family=Muli:400,700|Open+Sans:400,700|Roboto:400,700&display=swap);body {
+  background-color: #ffffff;
+}
+
+.navbar {
+  background: rgba(255, 255, 255, 0.97);
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+}
+
+#studio {
+  background-color: #ffffff;
+}
+
+.primary {
+  fill: #FF7271;
+}
+
+.primary:hover {
+  fill: #7287a1;
+}
+
+.secondary {
+  fill: #6FCAD8;
+}
+
+.font-serif {
+  font-family: "Muli", "Open Sans", "Roboto", "Serif";
+}
+
+.font-sans {
+  font-family: "Muli", "Open Sans", "Roboto", "Serif";
+}
+
+.card {
+  transition: transform 0.3s cubic-bezier(0.34, 2, 0.6, 1), box-shadow 0.2s ease !important;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.1) !important;
+}
+
+.card:hover {
+  transform: translateY(-5px) !important;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.12), 0 2px 4px 0 rgba(0, 0, 0, 0.08) !important;
+}
+
+[v-cloak] {
+  display: none;
+}
+
+.card-title {
+  color: #3C4042;
+}
+
+.btn-instawalkin {
+  background-color: #FF7271;
+  color: white;
+  transition: all 0.35s;
+}
+
+.btn-instawalkin:hover,
+.btn-instawalkin:focus {
+  color: #3C4042;
+}
+
+div.signupdiv {
+  margin-top: 2em;
+  background-color: #bbc0c2;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.form-control {
+  border-radius: 45px;
+  border-color: #FF7271;
+}
+
+a {
+  color: #FF7271;
+}
+
+a:hover,
+a:focus {
+  color: #242627;
+}
+
+#nprogress {
+  pointer-events: none;
+}
+
+#nprogress .bar {
+  background: #03a87c;
+  position: fixed;
+  z-index: 1031;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 2px;
+}
+
+#nprogress .peg {
+  display: block;
+  position: absolute;
+  right: 0;
+  width: 100px;
+  height: 100%;
+  box-shadow: 0 0 10px #03a87c, 0 0 5px #03a87c;
+  opacity: 1;
+  transform: rotate(3deg) translate(0px, -4px);
+}
+
+.nprogress-custom-parent {
+  overflow: hidden;
+  position: relative;
+}
+

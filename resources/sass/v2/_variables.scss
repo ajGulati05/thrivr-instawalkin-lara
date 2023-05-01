@@ -1,0 +1,35 @@
+// Variables
+
+// Gray and Brand Colors for use across theme
+@import url('https://fonts.googleapis.com/css?family=Muli:400,700|Open+Sans:400,700|Roboto:400,700&display=swap');
+
+$Muli: 'Muli','Open Sans';
+$Roboto:'Roboto','Serif';
+
+@font-face {
+    font-family: $Muli,$Roboto;
+    font-weight: 400;
+    font-style: normal;
+}
+@font-face {
+    font-family: $Muli,$Roboto;
+    font-weight: 700;
+  	font-style: bold;
+}
+
+
+
+
+
+$theme-black:    #3C4042;
+$theme-red:  #FF7271;
+$theme-blue:   #6FCAD8;
+$theme-green:   #3ED590;
+$theme-white:   #FFFFFF;
+$green: #03a87c;
+$gray-500: #a0aec0;
+$gray-900: #1a202c;
+$text-muted: $gray-500;
+$border-radius: .5rem;
+$border-radius-sm: .4rem;
+$box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);

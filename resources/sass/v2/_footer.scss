@@ -1,0 +1,26 @@
+// Styling for the footer
+footer {
+     z-index: 5000;
+    left: 0;
+    bottom: 0;
+    padding: 25px 0;
+    width: 100%;
+    
+    color: fade-out(white, .7);
+    background-color: $theme-black;
+    p {
+        font-size: 14px;
+        margin: 0;
+    }
+  h6{
+    color: $theme-white;
+    font-size: 16px;
+    font-weight: bold;
+  }
+
+  a{
+    
+     @include navlinks;
+   
+	}
+}

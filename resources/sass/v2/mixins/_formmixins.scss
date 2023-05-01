@@ -1,0 +1,42 @@
+
+
+
+
+@mixin error-feedback{
+  font-size: 14px;
+
+padding-left: 1rem;
+}
+@mixin form-textfield{
+    border: 1px solid #cccccc;
+    border-radius: 15px;
+   width: 320px;
+
+    text-indent: .8rem;
+    resize: none;
+
+     @media(min-width: 768px) {
+                 width: 349px;
+                
+            }
+     @media (min-width: 992px) { width: 403px;
+     }
+}
+
+
+::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+  color: $theme-black;
+
+}
+::-moz-placeholder { /* Firefox 19+ */
+  color: $theme-black;
+    padding-left: .2rem;
+}
+:-ms-input-placeholder { /* IE 10+ */
+  color: $theme-black;
+  padding-left: .2rem;
+}
+:-moz-placeholder { /* Firefox 18- */
+  color: $theme-black;
+  padding-left: .2rem;
+}

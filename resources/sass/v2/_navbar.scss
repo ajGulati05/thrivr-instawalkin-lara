@@ -1,0 +1,14 @@
+// Styling for the navbar
+.mainNav {
+    @include bold-font;
+    @include navlinks;
+
+   
+    border-color: fade-out($theme-black, .95);
+    background-color: white;
+    @include transition-all;
+  
+
+
+
+}

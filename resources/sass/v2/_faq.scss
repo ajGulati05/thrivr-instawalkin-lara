@@ -1,0 +1,88 @@
+.faq 
+{   background-color: white;
+    padding-top: 10px;
+    padding-bottom:5rem; 
+
+    .faq-inner{
+        @media (min-width: 768px) { 
+            margin:auto;
+            width: 70%;
+         }
+    }
+    .green-full-circle {
+
+
+z-index: 1100;
+
+max-width: 80px;
+@media(min-width:992px){
+    max-width: 138px;
+}
+    }
+         a{
+     font-size: 14px;   
+     font-style: bold;    
+    color:$theme-black;
+    }
+a:hover {
+    color: $theme-black;
+}
+    .faqHeader {
+      
+        margin: 20px;
+        justify-content: center;
+        display: flex;
+    }
+   
+  
+    .panel{
+            padding:10px;
+    }
+    .panel-heading [data-toggle="collapse"]:after {
+        
+        font-family:  FontAwesome; /* "play" icon */
+        content: "\f078";
+        float: right;
+        padding-left:5px;
+        -webkit-transform: rotate(180deg);
+        -moz-transform: rotate(180deg);
+        -ms-transform: rotate(180deg);
+        -o-transform: rotate(180deg);
+        transform: rotate(180deg);
+        font-size:14px;
+        color:$theme-red;
+      
+    }
+
+    .panel-heading [data-toggle="collapse"].collapsed:after {
+        /* rotate "play" icon from > (right arrow) to ^ (up arrow) */
+            -webkit-transform: rotate(0deg);
+        -moz-transform: rotate(0deg);
+        -ms-transform: rotate(0deg);
+        -o-transform: rotate(0deg);
+        transform: rotate(0deg);
+
+    }
+
+    .panel-body{
+            padding:10px 20px 10px 20px;
+         
+    }
+
+.two-circles{
+   width: 122px;
+
+left: 88%;
+ @media (min-width: 768px) { 
+            min-width: 284px;
+            top: -120px;
+
+left: 85%;         }
+      @media (min-width: 992px) { 
+            min-width: 405px;
+            top: -210px;
+         }    
+}
+   
+   
+}

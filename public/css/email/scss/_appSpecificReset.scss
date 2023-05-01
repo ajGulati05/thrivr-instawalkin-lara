@@ -1,0 +1,26 @@
+// No need to change this file
+// No need to change this file
+/* ------------------------- */
+/* Apple remove forced blue text on some devices */
+a[x-apple-data-detectors=true] {
+  color: inherit !important;
+  text-decoration: none !important; }
+
+/* ------------------------- */
+/* owa OUTLOOK WEB APP */
+[owa] .img-container div,
+
+[owa] .img-container button {
+  display: block !important; }
+[owa] .fullwidth button {
+  width: 100% !important; }
+[owa] .block-grid .col {
+  display: table-cell;
+  float: none !important;
+  vertical-align: top; }
+
+/* ------------------------- */
+/* ie Browser resets  */
+.ie-browser table, 
+.mso-container table {
+  table-layout: fixed; }

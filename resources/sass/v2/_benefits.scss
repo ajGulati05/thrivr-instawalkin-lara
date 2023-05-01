@@ -1,0 +1,15 @@
+.benefits{
+	background-color: white;
+	p{
+		
+	
+		&.lightend{
+			color: lighten($theme-black, 40);
+		}
+	}
+img{
+ min-width:40px;
+ margin-bottom: 0.8rem;
+ min-height: 63px;
+}
+}

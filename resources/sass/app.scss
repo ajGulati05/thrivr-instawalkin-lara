@@ -1,0 +1,49 @@
+/*@import "./frontendv2/variables.scss";
+@import "./frontendv2/mixins.scss";
+
+@import 'contactus.scss' ;
+@import 'faq.scss' ;
+
+
+
+@import "./frontendv2/global.scss";
+@import "./frontendv2/navbar.scss";
+@import "./frontendv2/masthead.scss";
+@import "./frontendv2/download.scss";
+@import "./frontendv2/features.scss";
+@import "./frontendv2/cta.scss";
+@import "./frontendv2/contact.scss";
+@import "./frontendv2/footer.scss";
+@import "./frontendv2/bootstrap-overrides.scss";
+@import "./frontendv2/instaforms.scss";
+@import "./frontendv2/becomeatherapist.scss";
+@import "./frontendv2/testimonials.scss";
+@import "./contactus.scss";
+@import "./faq.scss";
+@import "./becomeapartner.scss";
+
+@import "./frontendv2/pricing.scss";
+@import "./frontendv2/review.scss";
+@import "./frontendv2/subscribes.scss";
+*/
+
+@import "./v2/variables.scss";
+@import "./v2/mixins.scss";
+@import "./v2/global.scss";
+@import "./v2/navbar.scss";
+@import "./v2/footer.scss";
+@import "./v2/masthead.scss";
+@import "./v2/whyus.scss";
+@import "./v2/benefits.scss";
+@import "./v2/download.scss";
+@import "./v2/banner.scss";
+@import "./v2/offers.scss";
+@import "./v2/review.scss";
+@import "./v2/faq.scss";
+@import "./v2/mixins/formmixins.scss";
+@import "./v2/mixins/formglobal.scss";
+@import "./v2/contact/contact.scss";
+@import "./v2/therapist/cta.scss";
+@import "./v2/therapist/navcomponent.scss";
+@import "./v2/covid/support.scss";
+@import "./studio/app.scss"

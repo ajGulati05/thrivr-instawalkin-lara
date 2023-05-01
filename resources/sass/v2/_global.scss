@@ -1,0 +1,80 @@
+// Global styling for this template
+html,
+body {
+    max-width: 1400px;
+    height: 100%;
+    margin: auto;
+      background-color: #e0e0e0;
+}
+
+body {
+    @include body-font;
+    background-color: #ffffff;
+}
+.navbar-toggler{
+  color:$theme-red;
+}
+a {
+    color: $theme-red;
+    @include transition-all;
+    &:hover,
+    &:focus {
+        color: darken($theme-black, 10%);
+    }
+}
+section{
+  background-color: #ffffff;
+}
+hr {
+    max-width: 100px;
+    margin: 25px auto 0;
+    border-width: 1px;
+    border-color: fade-out($theme-black, .9);
+}
+
+hr.light {
+    border-color: white;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    @include bold-font;
+    color:$theme-black;
+    
+}
+h1{
+    font-size: 24px;
+}
+h2{
+    font-size: 18px;
+}
+p{
+    font-size: 16px;
+}
+.rotateimg180 {
+  -webkit-transform:rotate(180deg);
+  -moz-transform: rotate(180deg);
+  -ms-transform: rotate(180deg);
+  -o-transform: rotate(180deg);
+  transform: rotate(180deg);
+}
+.fixed-top {
+    position: fixed;
+    top: 0;
+    right: 0 !important;
+    left: 0 !important;
+    z-index: 1030;
+    max-width: 1400px;
+    width: 100%;
+    border:0.5px solid $theme-black;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.chev{
+  font-size: 50px;
+   }

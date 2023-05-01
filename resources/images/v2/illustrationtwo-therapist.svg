@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="304px" height="346px" viewBox="0 0 304 346" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 64 (93537) - https://sketch.com -->
+    <title>illustration/5</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Web" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Landing-page---therapists" transform="translate(-336.000000, -1385.000000)">
+            <g id="illustration/5" transform="translate(336.000000, 1388.000000)">
+                <g id="Group-3">
+                    <circle id="Oval-Copy-4" fill="#3C4042" cx="220" cy="170" r="84"></circle>
+                    <rect id="Rectangle" stroke-opacity="0.4" stroke="#3C4042" stroke-width="4.35897436" fill="#FFFFFF" x="68" y="0" width="168" height="340" rx="17.4358974"></rect>
+                    <g id="Group-9" transform="translate(0.000000, 81.000000)">
+                        <rect id="Rectangle-Copy-5" fill="#3ED590" x="0" y="0" width="136" height="48" rx="10"></rect>
+                        <circle id="Oval-Copy" fill="#FFFFFF" cx="22" cy="24" r="12"></circle>
+                        <rect id="Rectangle" fill="#FFFFFF" x="46" y="15" width="80" height="4" rx="2"></rect>
+                        <rect id="Rectangle-Copy-7" fill="#FFFFFF" x="46" y="29" width="62" height="4" rx="2"></rect>
+                    </g>
+                    <g id="Group-9-Copy" transform="translate(136.000000, 146.000000)">
+                        <rect id="Rectangle-Copy-5" fill="#FF7271" x="0" y="0" width="136" height="48" rx="10"></rect>
+                        <circle id="Oval-Copy" fill="#FFFFFF" cx="22" cy="24" r="12"></circle>
+                        <rect id="Rectangle" fill="#FFFFFF" x="46" y="15" width="80" height="4" rx="2"></rect>
+                        <rect id="Rectangle-Copy-7" fill="#FFFFFF" x="46" y="29" width="62" height="4" rx="2"></rect>
+                    </g>
+                    <rect id="Rectangle-Copy-5" fill="#6FCAD8" x="35" y="244" width="136" height="48" rx="10"></rect>
+                    <circle id="Oval-Copy" fill="#FFFFFF" cx="57" cy="268" r="12"></circle>
+                    <rect id="Rectangle" fill="#FFFFFF" x="81" y="259" width="80" height="4" rx="2"></rect>
+                    <rect id="Rectangle-Copy-7" fill="#FFFFFF" x="81" y="273" width="62" height="4" rx="2"></rect>
+                    <path d="M112,2 L193,2 L193,8.28205128 C193,13.0968414 189.096841,17 184.282051,17 L120.717949,17 C115.903159,17 112,13.0968414 112,8.28205128 L112,2 L112,2 Z" id="Rectangle" fill="#3C4042" opacity="0.4"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

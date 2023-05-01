@@ -1,0 +1,20 @@
+<?php
+
+namespace App\Http\Controllers\Usersapi\v2;
+use App\Manager;
+use App\IntakeForm;
+use Illuminate\Http\Request;
+use App\Http\Controllers\Controller;
+use Illuminate\Support\Facades\Auth;
+use App\Http\Traits\v2\CovidFormsTrait; 
+use App\Http\Resources\UsersApi\v2\CovidFormDetailResource;
+class CovidFormController extends Controller
+{
+    use CovidFormsTrait;
+
+    
+   public function detail(CovidForm $CovidForm){
+      
+        return response()->json(['data'=> new CovidFormDetailResource($CovidForm),"status"=>true]);
+    }
+}

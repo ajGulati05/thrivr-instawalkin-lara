@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="346px" height="340px" viewBox="0 0 346 340" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 64 (93537) - https://sketch.com -->
+    <title>illustration/4</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Web" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Landing-page---therapists" transform="translate(-829.000000, -968.000000)">
+            <g id="illustration/4" transform="translate(831.000000, 968.000000)">
+                <g id="Group-2">
+                    <path d="M213,0 C285.349302,0 344,58.6506978 344,131 C344,203.349302 285.349302,262 213,262 C140.650698,262 82,203.349302 82,131 C82,58.6506978 140.650698,0 213,0 Z M213,20 C151.696393,20 102,69.6963928 102,131 C102,192.303607 151.696393,242 213,242 C274.303607,242 324,192.303607 324,131 C324,69.6963928 274.303607,20 213,20 Z" id="Combined-Shape-Copy-6" fill="#3C4042"></path>
+                    <path d="M-55,97 L225.564103,97 C235.193683,97 243,104.806317 243,114.435897 L243,267.564103 C243,277.193683 235.193683,285 225.564103,285 L-55,285 L-55,285" id="Rectangle" stroke="#B1B3B3" stroke-width="4" fill="#FFFFFF" transform="translate(94.000000, 191.000000) rotate(-90.000000) translate(-94.000000, -191.000000) "></path>
+                    <path d="M2,84 L145,84 C149.418278,84 153,87.581722 153,92 L153,133 C153,137.418278 149.418278,141 145,141 L2,141 L2,141 L2,84 Z" id="Rectangle-Copy-5" fill="#6FCAD8"></path>
+                    <path d="M2,159 L144,159 C148.418278,159 152,162.581722 152,167 L152,185 C152,189.418278 148.418278,193 144,193 L2,193 L2,193 L2,159 Z" id="Rectangle-Copy-6" fill="#3ED590"></path>
+                    <path d="M2,210 L144,210 C148.418278,210 152,213.581722 152,218 L152,270 C152,274.418278 148.418278,278 144,278 L2,278 L2,278 L2,210 Z" id="Rectangle-Copy-11" fill="#FF7271"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

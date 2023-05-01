@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="702px" height="716px" viewBox="0 0 702 716" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 64 (93537) - https://sketch.com -->
+    <title>Group</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="shape/8">
+            <g id="Group">
+                <circle id="Oval-Copy" fill="#6FCAD8" cx="196" cy="196" r="196"></circle>
+                <path d="M476,264 C600.816353,264 702,365.183647 702,490 C702,614.816353 600.816353,716 476,716 C351.183647,716 250,614.816353 250,490 C250,365.183647 351.183647,264 476,264 Z M475.5,298 C369.73747,298 284,383.73747 284,489.5 C284,595.26253 369.73747,681 475.5,681 C581.26253,681 667,595.26253 667,489.5 C667,383.73747 581.26253,298 475.5,298 Z" id="Combined-Shape" fill="#3ED590"></path>
+                <circle id="Oval-Copy-3" fill="#3C4042" cx="336" cy="321" r="70"></circle>
+            </g>
+        </g>
+    </g>
+</svg>

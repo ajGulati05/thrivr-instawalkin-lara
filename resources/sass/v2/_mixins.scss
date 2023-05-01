@@ -1,0 +1,164 @@
+// Mixins
+@mixin transition-all() {
+    -webkit-transition: all .35s;
+    -moz-transition: all .35s;
+    transition: all .35s;
+}
+
+@mixin background-cover() {
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+@mixin primary-white-button{
+        border:1px solid #cccccc !important;
+        background-color: $theme-white !important;
+        color:$theme-red;
+        text-decoration: none;
+    &:focus,
+    &:hover,
+    &.focus {
+        color: $theme-black;
+        background-color: $theme-white;
+        border:1px solid #cccccc;
+       box-shadow: 1px 1px 1px $theme-black;
+        transform: translateY(-0.25em);
+    }
+     &:active {
+    box-shadow: none;
+    background-color: $theme-white;
+    color: $theme-black;
+
+  }
+    border-radius: 25px;
+    padding: 1em;
+    width: 320px;
+     @media(min-width: 768px) {
+                 width: 349px;
+                
+            }
+     @media (min-width: 992px) { width: 403px;
+     }
+    
+}
+@mixin primary-red-button{
+        border:none;
+        background-color: $theme-red !important;
+        color:$theme-white;
+        text-decoration: none;
+    &:focus,
+    &:hover,
+    &.focus {
+        color: $theme-black;
+        background-color: $theme-red;
+        
+       box-shadow: 1px 1px 1px $theme-red;
+        transform: translateY(-0.25em);
+    }
+     &:active {
+    box-shadow: none;
+    background-color: $theme-red;
+    color: $theme-black;
+
+  }
+    border-radius: 25px;
+    padding: 0.4em;
+   
+
+    
+}
+@mixin primary-link{
+    
+        background-color: $theme-red;
+        color:$theme-white;
+        text-decoration: none;
+    &:focus,
+    &:hover,
+    &.focus {
+        color: $theme-black;
+    }
+    border-radius: 25px;
+    padding: 1em;
+}
+
+@mixin upper-primary-link{
+    @include primary-link;
+    text-transform: uppercase;
+}
+@mixin button-variant($color, $background, $border) {
+    color: $color;
+    border-color: $border;
+    background-color: $background;
+    &:focus,
+    &.focus {
+        color: $color;
+        border-color: darken($border, 25%);
+        background-color: darken($background, 10%);
+    }
+    &:hover {
+        color: $color;
+        border-color: darken($border, 12%);
+        background-color: darken($background, 10%);
+    }
+    &:active,
+    &.active,
+    .open > &.dropdown-toggle {
+        color: $color;
+        border-color: darken($border, 12%);
+        background-color: darken($background, 10%);
+        &:hover,
+        &:focus,
+        &.focus {
+            color: $color;
+            border-color: darken($border, 25%);
+            background-color: darken($background, 17%);
+        }
+    }
+    &:active,
+    &.active,
+    .open > &.dropdown-toggle {
+        background-image: none;
+    }
+    &.disabled,
+    &[disabled],
+    fieldset[disabled] & {
+        &:hover,
+        &:focus,
+        &.focus {
+            border-color: $border;
+            background-color: $background;
+        }
+    }
+    .badge {
+        color: $background;
+        background-color: $color;
+    }
+}
+
+@mixin bold-font {
+   font-family: $Muli,$Roboto;
+    font-weight: bold;
+   
+}
+
+@mixin body-font {
+    font-family: $Muli,$Roboto;
+    font-weight: normal;
+}
+
+
+
+
+@mixin navlinks{
+    font-size: 14px;
+    color: $theme-white;
+    @include transition-all;
+    &:hover,
+    &:focus {
+        color: $theme-red;
+    }
+    
+}
+
+

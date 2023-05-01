@@ -1,0 +1,44 @@
+.alertbanner {
+    width: 100%;
+  top: -50px;
+  transition: top .5s ease-in-out;
+  z-index:1031;
+ @media(min-width: 768px) {
+     }
+         @media(min-width: 922px) {
+
+         } 
+}
+
+
+.navbar.fixed-top {
+  transition: top .5s ease-in-out;
+}
+
+
+BODY.alert-show {
+
+     @media(min-width: 768px) {
+     }
+         @media(min-width: 922px) {
+
+         } 
+       }
+
+BODY.alert-show .alertbanner {
+  top: 0;
+}
+
+BODY.alert-show .navbar.fixed-top  {
+    top: 75px;
+    @media(max-width: 400px)
+    {
+      top:95px;
+    }
+     @media(min-width: 740px) {
+      top:55px;
+     }
+         @media(min-width: 922px) {
+
+         } 
+   }

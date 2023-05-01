@@ -1,0 +1,22 @@
+/* CSS is based on 600px max-width */
+/* you can change the max-width in _gridStyles.scss */
+
+// Note:
+// I wouldn't change maxWidth Variable 
+// until industry standards for
+// common email widths changes.
+$maxWidth: 600px;
+
+
+/* Basic reset */
+body {
+  margin: 0;
+  padding: 0; }
+table, tr, td {
+  vertical-align: top;
+  border-collapse: collapse; }
+* {
+  line-height: inherit; }
+
+@import "_appSpecificReset.scss";
+@import "_gridStyles.scss";
